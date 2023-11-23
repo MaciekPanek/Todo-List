@@ -1,0 +1,37 @@
+:root {
+  --primary-color: #4c2b41;
+  --secondary-color: #be5869;
+  --main-bg-color: #4e4a4a;
+  --input-bg-color: #5c5c5c;
+  --input-bg-color-hover: #8d8d8d;
+  --input-text-color: #ffffff;
+  --input-placeholder-color: #cac2c2;
+  --title-color: #2b2b2b;
+  --button-bg-color: transparent;
+  --button-color: #cac2c2;
+  --button-color-hover: #323232;
+  --task-bg-color: #7a7a7a;
+  --task-name-color: #cac2c2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}

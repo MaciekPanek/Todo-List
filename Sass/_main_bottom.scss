@@ -1,0 +1,72 @@
+.main__box--bottom {
+  text-align: center;
+
+  &-title {
+    margin: 3rem 0;
+    color: var(--title-color);
+    opacity: 0.7;
+    font-size: 3rem;
+  }
+
+  &-task {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: var(--task-bg-color);
+    margin: 1rem auto;
+    border-radius: 2rem;
+    min-height: 6rem;
+  }
+
+  &-name {
+    color: var(--task-name-color);
+    opacity: 1;
+    transition: all 0.3s;
+    font-size: 1.8rem;
+    width: 75%;
+    text-align: left;
+    padding-left: 2rem;
+    inline-size: 95rem;
+    overflow-wrap: break-word;
+  }
+
+  &-buttons {
+    border-radius: 2rem;
+    width: 25%;
+    margin-right: 2rem;
+  }
+
+  &-edit {
+    height: 4rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: var(--button-bg-color);
+    font-size: 2rem;
+    color: var(--button-color-hover);
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 0 1rem;
+    padding: 0 1rem;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  &-delete {
+    height: 4rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: var(--button-bg-color);
+    font-size: 2rem;
+    color: var(--button-color-hover);
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 0 1rem;
+    padding: 0 1rem;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
